@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{
+            background-color: black;
+        }
+        h1{
+            color: wheat;
+            font-family: sans-serif;
+            text-align: center;
+            margin: 80px;
+        }
+        .pro{
+            margin: 25vh auto;
+            background-color: cyan;
+            width: 250px;
+            height: 25px;
+            border-radius: 20px;
+
+        }
+        .color{
+            margin: 1px;
+            background-color: orange;
+            width: 250px;
+            height: 25px;
+            border-radius: 20px;
+            animation: load 3s infinite;
+        }
+        @keyframes load{
+           from{
+            width: 0%;
+           }
+           to{
+            width: 100%;
+           } 
+        }
+        
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>LOADING...</h1>
+  <div class="pro"><div class="color"></div></div>  
+</body>
+</html>
